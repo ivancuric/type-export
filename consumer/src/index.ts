@@ -1,1 +1,1 @@
-export const addonValue = "addonValue";
+import { coreValue, addonValue } from "bundled";

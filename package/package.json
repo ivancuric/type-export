@@ -1,13 +1,31 @@
 {
-  "name": "package",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "name": "bundled",
+  "version": "0.0.0",
+  "type": "module",
+  "files": [
+    "dist",
+    "types"
+  ],
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./core/types/index.d.ts",
+        "default": "./core/dist/core.js"
+      },
+      "require": {
+        "types": "./core/types/index.d.ts",
+        "default": "./core/dist/core.umd.cjs"
+      }
+    },
+    "./addon": {
+      "import": {
+        "types": "./addon/types/index.d.ts",
+        "default": "./addon/dist/addon.js"
+      },
+      "require": {
+        "types": "./addon/types/index.d.ts",
+        "default": "./addon/dist/addon.umd.cjs"
+      }
+    }
+  }
 }
