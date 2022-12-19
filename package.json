@@ -4,14 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npm run build -ws --if-present && npm run copy-files -w package"
+    "build": "npm run build -ws --if-present && npm run copy-files -w bundled"
   },
   "author": "",
   "license": "ISC",
   "workspaces": [
     "core",
     "addon",
-    "package",
+    "bundled",
     "consumer",
     "dependency"
   ],

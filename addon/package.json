@@ -3,6 +3,19 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "files": [
+    "dist/**",
+    "types/**"
+  ],
+  "types": "./types/index.d.ts",
+  "main": "./dist/addon.umd.cjs",
+  "module": "./dist/addon.js",
+  "exports": {
+    ".": {
+      "import": "./dist/addon.js",
+      "require": "./dist/addon.umd.cjs"
+    }
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
