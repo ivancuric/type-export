@@ -15,9 +15,7 @@
     "skipLibCheck": true,
     "emitDeclarationOnly": true,
     "declarationDir": "types",
-    "composite": true,
-    "rootDir": "src",
-    "declarationMap": true
+    "composite": true
   },
-  "include": ["src"]
+  "include": ["addon", "core"]
 }

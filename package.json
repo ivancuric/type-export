@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npm run build -ws --if-present && npm run copy-files -w bundled"
+    "build": "npm run build -ws --if-present"
   },
   "author": "",
   "license": "ISC",

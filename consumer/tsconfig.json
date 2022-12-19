@@ -18,5 +18,10 @@
     "composite": true,
     "rootDir": "src"
   },
-  "include": ["src"]
+  "include": ["src"],
+  "references": [
+    {
+      "path": "../bundled"
+    }
+  ]
 }
