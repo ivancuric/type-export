@@ -1,0 +1,16 @@
+{
+  "name": "type-export",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run build -ws --if-present"
+  },
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "core",
+    "addon",
+    "package"
+  ]
+}
