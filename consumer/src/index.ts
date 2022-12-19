@@ -1,3 +1,4 @@
-// import { coreValue, addonValue } from "bundled";
+// import { coreValue } from "bundled";
+// import { addonValue } from "bundled/addon";
 
 export {};

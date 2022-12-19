@@ -1,1 +1,3 @@
-export const addonValue = "addonValue";
+// todo
+
+export {};
