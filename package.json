@@ -11,6 +11,8 @@
   "workspaces": [
     "core",
     "addon",
-    "package"
+    "package",
+    "consumer",
+    "dependency"
   ]
 }
