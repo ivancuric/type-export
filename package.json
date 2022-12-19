@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "copy": "copyfiles -a -F core/dist/ package/core/dist/",
-    "build": "npm run build -ws --if-present && npm run copy"
+    "build": "npm run build -ws --if-present && npm run copy-files -w package"
   },
   "author": "",
   "license": "ISC",
@@ -17,6 +16,6 @@
     "dependency"
   ],
   "devDependencies": {
-    "copyfiles": "^2.4.1"
+    "zx": "^7.1.1"
   }
 }

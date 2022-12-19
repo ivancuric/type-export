@@ -6,6 +6,9 @@
     "dist",
     "types"
   ],
+  "scripts": {
+    "copy-files": "node copy-files.mjs"
+  },
   "exports": {
     ".": {
       "import": {
