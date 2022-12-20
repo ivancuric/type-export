@@ -4,9 +4,8 @@ import { defineConfig } from "vite";
 export default defineConfig(({ mode }) => {
   return {
     build: {
-      emptyOutDir: false,
       minify: false,
-      sourcemap: "inline",
+      sourcemap: true,
       lib: {
         entry: path.resolve(__dirname, "src/index.ts"),
         name: "addon",
